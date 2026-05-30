@@ -1,0 +1,39 @@
+.crown{
+  font-size:60px;
+  margin-bottom:15px;
+}
+
+.profile{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  margin:25px 0;
+}
+
+.quest-list{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  margin:25px 0;
+}
+
+.quest-list div{
+  padding:12px;
+  border-radius:12px;
+  background:rgba(255,255,255,0.05);
+}
+
+.xp-bar{
+  height:16px;
+  width:100%;
+  background:#111;
+  border-radius:50px;
+  margin-top:20px;
+}
+
+.xp-fill{
+  height:100%;
+  border-radius:50px;
+  background:gold;
+  transition:all 0.8s ease;
+}
