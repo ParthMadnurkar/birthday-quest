@@ -14,29 +14,30 @@ const ACHIEVEMENTS = [
 const QUESTS = [
   {
     chapter: "Chapter 1",
-    title: "❄️ The Ice Kingdom",
 
+    title: "🌿 The Secret Garden",
+  
     riddle:
-      "I am winter trapped inside a city of heat. Children slide, friends laugh and jackets become armor. What am I?",
-
-    answer: "snow world",
-
-    hint1: "You may need a jacket.",
-
-    hint2: "It is inside a mall.",
-
-    hint3: "Snow falls here every day.",
-
-    destination: "Snow World",
-
+      "I am a peaceful world inspired by a distant country. Water, bridges and nature live together here. What am I?",
+  
+    answer: "okayama garden",
+  
+    hint1: "Japanese inspiration.",
+  
+    hint2: "One of Pune's prettiest gardens.",
+  
+    hint3: "Okayama.",
+  
+    destination: "Pune Okayama Friendship Garden",
+  
     mission:
-      "Take one funny photo together.",
-
+      "Walk together and find your favorite spot.",
+  
     envelope:
-      "Warmth In The Cold",
+      "The Adventure Begins",
 
     message:
-      "Even on cold days, you somehow make everything feel warmer.",
+      "No destination is better than spending time with you.",
 
     reward: 100
   },
@@ -163,31 +164,28 @@ const QUESTS = [
   {
     chapter: "Chapter 6",
 
-    title: "🌅 Sunset Escape",
-
+    title: "❄️ The Frozen Kingdom",
+  
     riddle:
-      "I ask for no money, no tickets and no score. I only ask for time together. What am I?",
-
-    answer: "park",
-
-    hint1: "Green place.",
-
-    hint2: "Quiet place.",
-
-    hint3: "Park.",
-
-    destination: "Park Date",
-
+      "I am winter trapped inside a city of heat. Snow falls every day and jackets become armor. What am I?",
+  
+    answer: "snow world",
+  
+    hint1: "You may need a jacket.",
+  
+    hint2: "Inside a mall.",
+  
+    hint3: "Snow falls here every day.",
+  
+    destination: "SNOW WORLD",
+  
     mission:
-      "No phones for 15 minutes.",
-
+      "Take the final birthday photo together.",
+  
     envelope:
-      "Pause",
-
-    message:
-      "No destination is better than spending time with you.",
-
-    reward: 200
+      "Adventure Complete",
+  
+    reward: 250
   },
 
   {
@@ -820,7 +818,16 @@ export default function App() {
         <div className="card">
 
           <h1>
-            ❤️ Adventure Complete ❤️
+          🏆 Adventure Complete
+
+            Total XP: {xp}
+
+            Final Rank:
+
+            ❤️ Favorite Human
+
+            Thank you for playing,
+            Billusaurous.
           </h1>
 
           <p>
